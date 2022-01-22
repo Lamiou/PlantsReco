@@ -7,10 +7,15 @@ FR : Le projet PlantsReco a pour but d'utiliser le Machine Learning pour reconna
 
 
 ## Pré-requis
+Afin de pouvoir éxécuter l'application sur votre poste, vous devez installer (si ce n'es pas déjà le cas) les dépendences suivante: 
+  * Python => 3.10
+  * Numpy => Last version stable 
+  * Pandas => Last version stable 
+  * Scikit-learn => Las version stable 
 
 ## Installation 
 
-## Démarrage 
+## Exécution
 
 ## Fabriqué avec 
 
