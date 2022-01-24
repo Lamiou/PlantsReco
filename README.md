@@ -25,7 +25,7 @@ Afin de pouvoir éxécuter l'application sur votre poste, vous devez installer (
 ## Versions 
 
 Dernière version stable : None 
-Dernière version : 0.1 
+Dernière version unstable : 0.2
 
 ## Auteurs 
 
