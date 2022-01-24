@@ -11,7 +11,10 @@ Afin de pouvoir éxécuter l'application sur votre poste, vous devez installer (
   * Python => 3.10
   * Numpy => Last version stable 
   * Pandas => Last version stable 
-  * Scikit-learn => Las version stable 
+  * Scikit-learn => Last version stable 
+  * matplotlib.pyplot => Last version stable
+  * os
+  * 
 
 ## Installation 
 
