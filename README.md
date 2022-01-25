@@ -11,21 +11,37 @@ Afin de pouvoir éxécuter l'application sur votre poste, vous devez installer (
   * Python => 3.10
   * Numpy => Last version stable 
   * Pandas => Last version stable 
-  * Scikit-learn => Last version stable 
   * matplotlib.pyplot => Last version stable
-  * os
+  * Fastai
   * 
 
 ## Installation 
+Afin de pouvoir affiner le model il vous faut donc installer les dépendences ci-dessus.
+
+Installation Fast AI:
+``` pip install -Uqq fastbook ```
+
+Veuillez importer les features suivant si elle ne le sont pas :
+```
+from fastai.vision.widgets import *
+from fastai.vision.all import *
+import fastbook
+fastbook.setup_book()
+```
 
 ## Exécution
+Pour utiliser le model déjà préentrainer veuillez télécharger le fichier suivant :
 
-## Fabriqué avec 
+
+Pour éxécuter le model veuillez procéder de la façon suivante:
+```learner = load_learner('<pathToModel>/models.pkl')
+   <yourVariable>,_,probs = learner.predict(img)
+```
 
 ## Versions 
 
 Dernière version stable : None 
-Dernière version unstable : 0.2
+Dernière version unstable : 0.3
 
 ## Auteurs 
 
