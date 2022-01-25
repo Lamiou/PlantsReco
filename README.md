@@ -31,7 +31,7 @@ fastbook.setup_book()
 
 ## Exécution
 Pour utiliser le model déjà préentrainer veuillez télécharger le fichier suivant :
-
+https://drive.google.com/file/d/1fV7sV09nsrzp1GIm_CqgQIl81KnvO2mH/view?usp=sharing
 
 Pour éxécuter le model veuillez procéder de la façon suivante:
 ```learner = load_learner('<pathToModel>/models.pkl')
